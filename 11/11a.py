@@ -2,9 +2,6 @@ import re
 
 inp = 'vzbxkghb'
 
-
-print chr(ord('b')+1)
-
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 alphaback = alphabet[::-1]
 
