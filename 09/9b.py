@@ -1,6 +1,6 @@
 from itertools import permutations
 
-with open('9a.txt', 'r') as file:
+with open('9.txt', 'r') as file:
     distances = {}
     places = set()
     for line in file.readlines():

@@ -3,7 +3,7 @@ ON = 1
 TOGGLE = 2
 
 processed = []
-with open('6a.txt', 'r') as file:
+with open('6.txt', 'r') as file:
     for line in file.readlines():
         line = line.strip()
         line = line.replace(' through ', '), (')+')'

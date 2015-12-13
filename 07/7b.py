@@ -1,5 +1,5 @@
 inputs = {}
-with open('7a.txt', 'r') as file:
+with open('7.txt', 'r') as file:
     for line in file.readlines():
         line = line.strip()
         line = line.split(' -> ')
