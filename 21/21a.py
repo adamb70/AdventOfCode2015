@@ -66,7 +66,7 @@ for weapon in shop['Weapons']:
         for rings in combinations(shop['Rings'], 2):
             boss = Character(int(boss_stats[0]), int(boss_stats[1]), int(boss_stats[2]))
             player = Character(100, 0, 0)
-            
+
             player.buy('Weapons', weapon)
             player.buy('Armor', armor)
             player.buy('Rings', rings[0])
